@@ -1,0 +1,22 @@
+Containerlab
+
+Containerlab és un nou emulador de xarxa de codi obert que crea ràpidament entorns de prova de xarxa en un flux de treball d'estil devops. Proporciona una interfície de línia d'ordres per orquestrar i gestionar laboratoris de xarxes basats en contenidors i admet imatges d'encaminador en contenidors disponibles dels principals venedors de xarxes.
+El que el fa més interessant és que Containerlab admet qualsevol sistema operatiu de xarxa de codi obert que es publiqui com a imatge de contenidor, com ara l'encaminador Free Range Routing (FRR) (aquest serà el que farem servir a les pràctiques).
+Instal·lació:
+Prerequisits:
+Containerlab funciona millor a Linux. Funciona tant en distribucions basades en Debian com en RHEL, i fins i tot es pot executar al subsistema Windows per a Linux (WSL2). La seva dependència principal és Docker, així que primer heu d'instal·lar Docker:
+
+$ sudo apt install apt-transport-https ca-certificates
+$ sudo apt install -y curl software-properties-common
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+$ sudo apt update
+$ apt-cache policy docker-ce
+$ sudo apt install -y docker-ce
+
+Intal·lació de containerlab:
+Per instal·lar Containerlab des de el seu repositori només cal:
+bash -c "$(wget -qO - https://get.containerlab.dev)"
+
+
+
