@@ -1,4 +1,4 @@
-Containerlab
+Containerlab 2024-25
 
 Containerlab és un nou emulador de xarxa de codi obert que crea ràpidament entorns de prova de xarxa en un flux de treball d'estil devops. Proporciona una interfície de línia d'ordres per orquestrar i gestionar laboratoris de xarxes basats en contenidors i admet imatges d'encaminador en contenidors disponibles dels principals venedors de xarxes.
 El que el fa més interessant és que Containerlab admet qualsevol sistema operatiu de xarxa de codi obert que es publiqui com a imatge de contenidor, com ara l'encaminador Free Range Routing (FRR) (aquest serà el que farem servir a les pràctiques).
